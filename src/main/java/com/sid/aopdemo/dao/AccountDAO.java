@@ -1,6 +1,10 @@
 package com.sid.aopdemo.dao;
 
+import com.sid.aopdemo.Account;
+
 public interface AccountDAO {
 
-    void addAccount();
+    void addAccount(Account theAccount);
+
+
 }
