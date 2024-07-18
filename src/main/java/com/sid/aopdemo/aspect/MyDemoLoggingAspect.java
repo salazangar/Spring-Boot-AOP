@@ -16,7 +16,7 @@ public class MyDemoLoggingAspect {
 
 //    @Before("execution(* add*())")
 
-    @Before("execution(* add*(com.sid.aopdemo.Account, ..))")
+    @Before("execution(* com.sid..add*(..))")
     public void beforeTheAddAccount(){
 
         System.out.println("\n=====>>> Executing @Before advice on method addAccount()");
